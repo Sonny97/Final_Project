@@ -20,7 +20,6 @@ $(document).ready(function(){
   getSongs();
 
   var audio = document.getElementById('player');
-  audio.play();
 });
 var audio = document.getElementById('player');
 var music;
@@ -71,7 +70,8 @@ function scheduleSong(id){
 }
 
 function shuffle(array){
-  for (var random, temp, position = array.length; position; random = Math.floor(Math.random()*position), temp = array[--position], array[position] = array [random], array[random] = temp); {
+  for (var random, temp, position = array.length; position; random = Math.floor(Math.random()*position),
+   temp = array[--position], array[position] = array [random], array[random] = temp); {
     return array;
   }
 }

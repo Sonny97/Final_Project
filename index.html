@@ -3,16 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Gamers</title>
-    <link rel="stylesheet" type="text/css" href="css/estetica.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/pacman.jpeg">
     <link rel="stylesheet" href="fontello.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="articulacion.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/d8350ebb3a.js"></script>
+
   </head>
   <body>
     <div class="arriba">
@@ -42,43 +46,33 @@
         </ul>
       </div>
     </nav>
-    <div class="general">
-      <div class="titulo">
-        <h1 class="head1" >Pagina de Video Juegos</h1>
-      </div>
-      <div class="xbox" id="xbox">
-        <h2 class="titleX">Secion de Xbox</h2>
-        <br>
-        <p class="textX">Xbox fue la primera videoconsola de sobremesa producida por Microsoft, en       colaboracion con Intel.
-          Su principal caracteristica es su procesador central basado en el procesador Intel Pentium III.
-          <br><br><br><br><br><br>
-
-          <div align="center">
-            <table>
-              <tr>
-                <td>
-                  <div clas="textoX">
-                    <p class="textX">
-                      Dale click a la imagen de Xbox para que veas un repertorio de los juegos de xbox
-                    </p>
-                  </div>
-                </td>
-                <td>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </td>
-                <td><a href="xbox/index.html" target="_blank">
-                  <img class="imagenXbox"src="img/xbox.jpeg" alt="xbox"></a>
-                </td>
-              </tr>
-            </table>
-            <br>
-          </div>
-        </p>
-        <br><br><br><br><br><br><br>
-      </div>
-        <div class="separador">
+    <div class="content-wrapper">
+      <div class="section header-container">
+        <div class="section__contents">
+          <h1 class="main-header" >Pagina de <br> Video Juegos</h1>
         </div>
-        <div class="ps" id="ps">
+      </div>
+      <div class="section xbox" id="xbox">
+        <div class="section__contents">
+            <h2 class="section__title text--xbox">Secion de Xbox</h2>
+            <p class="section__text">
+              Xbox fue la primera videoconsola de sobremesa producida
+              por Microsoft,en colaboracion con Intel.
+              Su principal caracteristica es su procesador central
+              basado en el procesador Intel Pentium III.
+            </p>
+            <div class="section__interaction">
+              <p class="section__text">
+                Dale click a la imagen de Xbox para que veas un repertorio
+                de los juegos de xbox
+              </p>
+              <a href="xbox/index.html" target="_blank">
+                <img class="imagenXbox"src="img/xbox.jpeg" alt="xbox">
+              </a>
+            </div>
+        </div>
+      </div>
+        <div class="section ps" id="ps">
           <h2 class="titlePs">Secion de PlayStation</h2>
           <br>
           <p class="textps">
@@ -107,9 +101,7 @@
           </div>
           </p>
         </div>
-        <div class="separador">
-        </div>
-        <div class="pc" id="pc">
+        <div class="section pc" id="pc">
           <h2 class="titlePc">Seccion de PC´s</h2>
           <br>
           <p class="textPC">
@@ -140,9 +132,7 @@
             </div>
           </p>
         </div>
-        <div class="separador">
-        </div>
-        <div class="nintendo" id="nintendo">
+        <div class="section nintendo" id="nintendo">
           <h2 class="titleNin">Seccion de Nintendo</h2>
           <br>
           <p class="textonint">
@@ -169,8 +159,7 @@
             </div>
           </p>
         </div>
-        <div class="separador">
-        </div>
+        <div class="separador"></div>
         <div>
           <section class="contacto">
             <div class="container">

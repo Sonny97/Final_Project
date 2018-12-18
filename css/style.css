@@ -1,8 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   border: box;
+  font-family: 'Staatliches', cursive;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
   color: red;
   text-align: center;
 }
-.general {
+.content-wrapper {
   width: 100%;
   max-width: 2500px;
 }
@@ -43,7 +44,6 @@ body {
   color: white;
 }
 .xbox {
-  padding-top: 150px;
   background-image: url("../img/xbox.png") ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,8 +51,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 100%;
-  max-height: 500px;
   color: white;
 }
 .titleX {
@@ -73,7 +71,6 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
     height: 100%;
-    max-height: 500px;
     font-weight:bold;
 }
 .titlePs {
@@ -193,3 +190,75 @@ body {
 .nav li:hover > ul {
   display: block;
 }
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__contents {
+
+}
+
+.section__title {
+ text-align: center;
+}
+
+.section__text {
+  color: white;
+  margin: 15px;
+}
+
+.section__interaction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section__title--left {
+  text-align: center;
+}
+
+.section__title--left {
+  text-align: left;
+}
+
+.section__title--right {
+  text-align: right;
+}
+
+.text--xbox {
+  color: rgb(49, 167, 49);
+}
+
+.text--ps {
+  color: black;
+}
+
+.text--pc {
+  color: rgb(99, 99, 201);
+}
+
+.text--nintendo {
+  color: rgb(199, 51, 51);
+}
+
+.header-container {
+
+}
+
+.main-header {
+  color: rgb(190, 48, 48);
+  text-align: center;
+  font-size: 110px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
